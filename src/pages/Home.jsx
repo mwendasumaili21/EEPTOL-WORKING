@@ -1,7 +1,9 @@
 export default function Home() {
   return (
-    <h1 style={{ fontSize: '48px', textAlign: 'center', marginTop: '100px' }}>
-      🚨 If you see this, the app is working!
-    </h1>
+    <div style={{ textAlign: 'center', paddingTop: '60px' }}>
+      <h1>Welcome to EEPTOL</h1>
+      <p>This is your Electrical Engineering Practical Training Lab.</p>
+      <p>Start exploring topics, simulations, and more!</p>
+    </div>
   );
 }
