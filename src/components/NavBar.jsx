@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";console.log("✅ NavBar loaded");
+import { Link, useLocation } from "react-router-dom";
 
 export default function NavBar() {
   const location = useLocation();
