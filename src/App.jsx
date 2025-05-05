@@ -1,13 +1,8 @@
-import React from "react";
-import AppRoutes from "./routes";
-import NavBar from "./components/NavBar";
-import './index.css';
-
 export default function App() {
   return (
-    <div className="w-full h-full bg-gray-50">
-      <NavBar />
-      <AppRoutes />
+    <div style={{ padding: "50px", textAlign: "center", fontSize: "24px" }}>
+      ✅ EEPTOL is rendering from App.jsx!
     </div>
   );
 }
+
