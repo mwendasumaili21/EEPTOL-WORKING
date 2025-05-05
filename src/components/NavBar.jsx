@@ -12,7 +12,12 @@ export default function NavBar() {
   });
 
   return (
-    <nav style={{ textAlign: "center", padding: "20px", borderBottom: "1px solid #ccc" }}>
+    <nav style={{
+      textAlign: "center",
+      padding: "20px",
+      borderBottom: "1px solid #ccc",
+      marginBottom: "20px"
+    }}>
       <Link to="/" style={linkStyle("/")}>Home</Link>
       <Link to="/topics" style={linkStyle("/topics")}>Topics</Link>
       <Link to="/help" style={linkStyle("/help")}>Help</Link>
